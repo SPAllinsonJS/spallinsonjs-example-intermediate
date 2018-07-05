@@ -1,7 +1,7 @@
 
 # SPAllinsonJS - Intermediate App
 
-v1.3.3
+v1.3.4
 
 
 
@@ -141,3 +141,9 @@ Though, I probably would recommend using the MVVM pattern with a one directional
 #### Docs
 
 All documentation can be found on the official site: [www.spallinsonjs.com](http://www.spallinsonjs.com)
+
+
+
+## Copyright
+
+All content &copy; [Chris J. Allinson](http://www.allinson.ca) 1996 - Present. All rights reserved.

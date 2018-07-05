@@ -43,7 +43,7 @@ _A_.Controllers.PageTwo = function () {
 
     this.appendUser = function () {
         var newUser = {
-            name: 'Chris Allinson',
+            name: 'Chris J. Allinson',
             age: 37
         };
         appendUser(newUser);
