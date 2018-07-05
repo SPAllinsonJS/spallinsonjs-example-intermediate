@@ -42,7 +42,7 @@ _A_.Controllers.PageOne = function () {
 
     this.appendUser = function () {
         var newUser = {
-            name: 'Chris Allinson',
+            name: 'Chris J. Allinson',
             age: 37
         };
         self.model.users.push(newUser);

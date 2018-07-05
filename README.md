@@ -1,7 +1,7 @@
 
 # SPAllinsonJS - Intermediate App
 
-v1.3.3
+v1.3.4
 
 
 
@@ -10,6 +10,12 @@ v1.3.3
 This app outlines more SPAllinsonJS features.
 
 Topics include: Splash, Preloading, Offline, Repeat, Repaint, Append, Bind, Rebind, Eval
+
+
+
+## See it in Action
+
+[www.spallinsonjs.com/example-apps/intermediate](http://spallinsonjs.com/example-apps/intermediate)
 
 
 
@@ -141,3 +147,9 @@ Though, I probably would recommend using the MVVM pattern with a one directional
 #### Docs
 
 All documentation can be found on the official site: [www.spallinsonjs.com](http://www.spallinsonjs.com)
+
+
+
+## Copyright
+
+All content &copy; [Chris J. Allinson](http://www.allinson.ca) 1996 - Present. All rights reserved.
