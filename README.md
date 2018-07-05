@@ -13,6 +13,12 @@ Topics include: Splash, Preloading, Offline, Repeat, Repaint, Append, Bind, Rebi
 
 
 
+## See it in Action
+
+[www.spallinsonjs.com/example-apps/intermediate](http://spallinsonjs.com/example-apps/intermediate)
+
+
+
 ## App Architecture
 
 The architecture is the same as the beginner example app except it adds:
