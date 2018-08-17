@@ -1,6 +1,6 @@
 
 
-_A_.Controllers.PageOne = function () {
+_A_.Controllers.PageThree = function () {
 
     // instance variables
 
@@ -21,6 +21,13 @@ _A_.Controllers.PageOne = function () {
                 age: 64
             }
         ];
+
+        for (var i = 0; i < 100; i++) {
+            self.model.users.push({
+                name: 'Chris J. Allinson',
+                age: 37
+            });
+        }
     };
 
 

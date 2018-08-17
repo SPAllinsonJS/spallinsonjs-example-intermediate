@@ -6,22 +6,43 @@ _A_.Controllers.User = function () {
 
     var self = this;
 
-    this.me;
-    this.model;
+    this.isEditing = false;
+
+    var tempName;
+    var tempAge;
 
 
 
     // lifecycle methods
 
-    this.init = function (i, data) {
-        self.me = i;
-        self.model = data;
+    this.init = function () {
+        tempName = self.model.name;
+        tempAge = self.model.age;
     };
 
-    this.dealloc = function (callback) {
-        return callback();
+
+
+    // UI Events
+
+    this.nameChanged = function (el) {
+        tempName = el.value;
     };
 
-    this.viewDidLoad = function () {
+    this.ageChanged = function (el) {
+        tempAge = el.value;
+    };
+
+    this.buttonPressed = function () {
+        if (self.isEditing) {
+            self.model = {
+                name: tempName,
+                age: tempAge
+            };
+            self.isEditing = !self.isEditing;
+            _A_.Repaint(self);
+        } else {
+            self.isEditing = !self.isEditing;
+            _A_.Repaint(self);
+        }
     };
 };

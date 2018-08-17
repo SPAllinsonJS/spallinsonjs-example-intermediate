@@ -2,7 +2,16 @@
 
 <div class="user-container">
 
-    <span class="name">[B: model.name ]</span>
-    <span class="age">[E: _C_.model.age ]</span>
+    <span class="name [E: _C_.isEditing ? '_A_Display_None' : '' ]">[B: model.name ]</span>
+    <span class="age [E: _C_.isEditing ? '_A_Display_None' : '' ]">[E: _C_.model.age ]</span>
+
+    <span class="name [E: _C_.isEditing ? '' : '_A_Display_None' ]">
+        <input value="[E: _C_.model.name ]" onkeyup="_C_.nameChanged(this)" />
+    </span>
+    <span class="age [E: _C_.isEditing ? '' : '_A_Display_None' ]">
+        <input value="[E: _C_.model.age ]" onkeyup="_C_.ageChanged(this)" />
+    </span>
+
+    <button onclick="_C_.buttonPressed()">[E: _C_.isEditing ? 'Save' : 'Edit' ]</button>
 
 </div>

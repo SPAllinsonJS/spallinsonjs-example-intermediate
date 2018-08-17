@@ -1,2 +1,16 @@
 
 
+.page-three .users-container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.page-three button {
+    display: block;
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #333;
+    margin: 20px auto;
+    cursor: pointer;
+}
