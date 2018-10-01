@@ -6,17 +6,11 @@ _A_.Controllers.PageTwo = function () {
 
     var self = this;
 
-    this.me;
-    this.model;
-
 
 
     // lifecycle methods
 
-    this.init = function (i, data) {
-        self.me = i;
-        self.model = data;
-
+    this.init = function () {
         self.model.users = [
             {
                 name: 'Jon Doe',
@@ -29,11 +23,7 @@ _A_.Controllers.PageTwo = function () {
         ];
     };
 
-    this.dealloc = function (callback) {
-        return callback();
-    };
-
-    this.viewDidLoad = function () {
+    this.viewDidAppear = function () {
         repeatUsers();
     };
 
@@ -41,7 +31,7 @@ _A_.Controllers.PageTwo = function () {
 
     // UI Events
 
-    this.appendUser = function () {
+    this.appendUserPressed = function () {
         var newUser = {
             name: 'Chris J. Allinson',
             age: 37
@@ -58,7 +48,7 @@ _A_.Controllers.PageTwo = function () {
             'User',
             self.me + '.usersContainer',
             self.model.users,
-            self.me
+            self
         );
     };
 
@@ -67,7 +57,7 @@ _A_.Controllers.PageTwo = function () {
             'User',
             self.me + '.usersContainer',
             [user],
-            self.me
+            self
         );
     };
 };

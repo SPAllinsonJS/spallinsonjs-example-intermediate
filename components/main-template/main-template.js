@@ -4,29 +4,14 @@ _A_.Controllers.MainTemplate = function () {
 
     // instance variables
 
-    var self = this;
-
-    this.me;
-    this.model;
-
     var currentPage;
 
 
 
     // lifecycle methods
 
-    this.init = function (i, data) {
-        self.me = i;
-        self.model = data;
-
+    this.init = function () {
         currentPage = determineInitialPage();
-    };
-
-    this.dealloc = function (callback) {
-        return callback();
-    };
-
-    this.viewDidLoad = function () {
     };
 
 

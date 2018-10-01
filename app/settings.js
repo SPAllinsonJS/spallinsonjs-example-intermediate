@@ -29,27 +29,33 @@ _A_.Settings = {
     components: {
         'MainTemplate': {
             view: 'components/main-template/main-template.html',
-            controller: 'components/main-template/main-template.js'
+            controller: 'components/main-template/main-template.js',
+            preload: true
         },
 
         'PageOne': {
             view: 'components/page-one/page-one.html',
             controller: 'components/page-one/page-one.js',
-            pageTitle: 'SPAllinsonJS - Beginner App - Page One'
+            pageTitle: 'SPAllinsonJS - Intermediate App - Page One',
+            preload: true
         },
         'PageTwo': {
             view: 'components/page-two/page-two.html',
             controller: 'components/page-two/page-two.js',
-            pageTitle: 'SPAllinsonJS - Beginner App - Page Two'
+            pageTitle: 'SPAllinsonJS - Intermediate App - Page Two',
+            preload: true
         },
         'PageThree': {
             view: 'components/page-three/page-three.html',
-            pageTitle: 'SPAllinsonJS - Beginner App - Page Three'
+            controller: 'components/page-three/page-three.js',
+            pageTitle: 'SPAllinsonJS - Intermediate App - Page Three',
+            preload: true
         },
 
         'User': {
             view: 'components/user/user.html',
-            controller: 'components/user/user.js'
+            controller: 'components/user/user.js',
+            preload: true
         },
     },
 
