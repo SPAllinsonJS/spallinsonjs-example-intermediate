@@ -1,7 +1,7 @@
 
 # SPAllinsonJS - Intermediate App
 
-v1.4.0
+v1.4.2
 
 
 
