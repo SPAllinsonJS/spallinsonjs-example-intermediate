@@ -1,7 +1,7 @@
 
 # SPAllinsonJS - Intermediate App
 
-v1.4.2
+v1.4.3
 
 
 
@@ -15,7 +15,7 @@ Topics include: Splash, Preloading, Offline, Repeat, Repaint, Append, Bind, Rebi
 
 ## See it in Action
 
-[www.spallinsonjs.com/example-apps/intermediate](http://spallinsonjs.com/example-apps/intermediate)
+[www.spallinsonjs.com/example-apps/intermediate](https://spallinsonjs.com/example-apps/intermediate)
 
 
 
@@ -144,10 +144,10 @@ SPAllinsonJS provides a bunch of ways of doing things! Though, I probably would 
 
 #### Docs
 
-All documentation can be found on the official site: [www.spallinsonjs.com](http://www.spallinsonjs.com)
+All documentation can be found on the official site: [www.spallinsonjs.com](https://www.spallinsonjs.com)
 
 
 
 ## Copyright
 
-All content &copy; [Chris J. Allinson](http://www.allinson.ca) 1996 - Present. All rights reserved.
+All content &copy; [Chris J. Allinson](https://www.allinson.ca) 1996 - Present. All rights reserved.
